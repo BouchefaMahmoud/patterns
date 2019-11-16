@@ -1,0 +1,17 @@
+	   public void plonge() {
+		   this.etat = new EtatSousEau();
+	   }
+	   
+	   package test.mustapha;
+
+		public class EtatSousEau implements EtatGuerrier {
+		@Override
+		public void avancer() {
+
+			System.out.println("Guerrier sous-eau: IL  NAGE...");	
+		
+		}
+}
+	   	loki.plonge(); // loki.setEtat(new EtatSousEau());
+	   	loki.avance();
+		loki.avance();
